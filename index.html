@@ -45,60 +45,89 @@
           <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
       </div>
-    <!-- Greeting Message-->
+    
     </br>
+    
+    <!-- Greeting Message-->
     <section class="custom-card-greeting">
         <div class="card">
             <h5 class="card-header">Greeting Message</h5>
             <div class="card-body">
               <h5 class="card-title">Welcome!</h5>
               <p class="card-text">My name is Mehdi Safari and I'm a Full-Stack Web Developer, this a portfolio of some my projects. Feel free to browse around, I hope you like what I have done. You can also contact me by clicking on the "Contact" button below.</p>
-              <a href="#" class="btn btn-primary">Contact Me!</a>
+              <button class="custom-btn">
+                <a href="#" class="btn">Click Me</a>
+              </button>
+            </div>
+          </div>
+    </section>
+    
+    </br>
+
+    <!-- Resume Download Github Link-->
+    <section class= "custom-social-card">
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-header">
+                    Social Links
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Github Profile</h5>
+                  <p class="card-text">Click on the link below to move to my Github Profile!</p>
+                  <button class="custom-btn">
+                    <a href="#" class="btn">Click Me</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-header">
+                    Social Links
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Linkedin Profile</h5>
+                    <p class="card-text">Click on the link below to move to my Linkedin Profile!</p>
+                    <button class="custom-btn">
+                        <a href="#" class="btn">Click Me</a>
+                    </button>
+                </div>
+              </div>
             </div>
           </div>
     </section>
       
-
-      <!-- Resume Download Github Link-->
     </br>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header">
-                Social Links
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Github Profile</h5>
-              <p class="card-text">Click on the link below to move to my Github Profile!</p>
-              <a href="#" class="btn btn-primary">Click Me!</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-header">
-                Social Links
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Linkedin Profile</h5>
-                <p class="card-text">Click on the link below to move to my Linkedin Profile!</p>
-                <a href="#" class="btn btn-primary">Click Me!</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-        </br>
-      <div class="card text-center">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Resume</h5>
-          <p class="card-text">Download my PDF formtatted Resume here!</p>
-          <a href="#" class="btn btn-primary">Download</a>
-        </div>
-      </div>
+    <!-- My Projects -->
+    <section class="custom-projects-card">
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+          </div>
+    </section>
+
+    <!-- Resume Download -->
+    <section class="custom-resume-card">
+        <div class="card text-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Resume</h5>
+              <p class="card-text">Download my PDF formtatted Resume here!</p>
+              <button class="custom-btn">
+                <a href="#" class="btn">Download</a>
+              </button>
+              
+            </div>
+          </div>
+    </section>
+      
 
     <!--Contact Form-->
     <section class="mb-4 custom-form">
@@ -144,7 +173,10 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <button class="custom-btn">
+                    <a class="btn custom-btn" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </button>
+               
             </div>
             <div class="status"></div>
         </div>

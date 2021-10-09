@@ -27,3 +27,21 @@ body {
 .custom-card-greeting {
     padding: 10px;
 }
+
+.custom-social-card {
+    padding: 10px;
+}
+
+.custom-resume-card {
+    padding: 10px;
+}
+
+.custom-btn {
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(228, 243, 145);
+}
+
+.custome-projects-card {
+    padding: 10px;
+}
