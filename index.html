@@ -39,21 +39,22 @@
       </nav>
 
     <!-- Main Body -->
-    <div class="jumbotron jumbotron-fluid custom-jumbotron">
-        <div class="container">
-          <h1 class="display-4">Mehdi Safari</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="jumbotron jumbotron-fluid custom-jumbotron ">
+        <div class="container custom-header-image custom-container">
+            <h1 class="display-4">My Development Portfolio</h1>
+            <p class="lead p-jumbo">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
       </div>
     
-    </br>
+    <hr size="4" width="100%" color="gray">  
+    <!-- </br> -->
     
     <!-- Greeting Message-->
     <section class="custom-card-greeting">
         <div class="card">
-            <h5 class="card-header">Greeting Message</h5>
+            <!-- <h5 class="card-header">Greeting Message</h5> -->
             <div class="card-body">
-              <h5 class="card-title">Welcome!</h5>
+              <h2 class="card-title">Welcome!</h2>
               <p class="card-text">My name is Mehdi Safari and I'm a Full-Stack Web Developer, this a portfolio of some my projects. Feel free to browse around, I hope you like what I have done. You can also contact me by clicking on the "Contact" button below.</p>
               <button class="custom-btn">
                 <a href="#" class="btn">Click Me</a>
@@ -62,77 +63,71 @@
           </div>
     </section>
     
-    </br>
+
+    <!-- </br> -->
 
     <!-- Resume Download Github Link-->
-    <section class= "custom-social-card">
+    <section class= "custom-social-card custom-padding">
         <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-header">
+            <div class="col-sm-12">
+                <div class="card-header custom-card-header">
                     Social Links
                 </div>
-                <div class="card-body">
+              <div class="card col-sm-12 custom-card">
+                <div class="card-body col-md-6">
                   <h5 class="card-title">Github Profile</h5>
-                  <p class="card-text">Click on the link below to move to my Github Profile!</p>
+                  <p class="card-text">Click on the link below to see my Github Profile!</p>
                   <button class="custom-btn">
                     <a href="#" class="btn">Click Me</a>
                   </button>
                 </div>
+                <div class="card">
+                    <div class="card-body col-md-6">
+                        <h5 class="card-title">Linkedin Profile</h5>
+                        <p class="card-text">Click on the link below to see my Linkedin Profile!</p>
+                        <button class="custom-btn">
+                            <a href="#" class="btn">Click Me</a>
+                        </button>
+                    </div>
+                  </div>
               </div>
+                
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-header">
-                    Social Links
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Linkedin Profile</h5>
-                    <p class="card-text">Click on the link below to move to my Linkedin Profile!</p>
-                    <button class="custom-btn">
-                        <a href="#" class="btn">Click Me</a>
-                    </button>
-                </div>
-              </div>
-            </div>
+            
           </div>
     </section>
       
-    </br>
+    <!-- </br> -->
 
     <!-- My Projects -->
-    <section class="custom-projects-card">
+    <section class="custom-projects-card custom-padding">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner"></div>
-            <button class="custome-btn-slider">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/images/gif1.gif" alt="First Project Gif">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>The Holy Hour</h5>
-                        <p>A group project done with a team of 3 developers</p>
+                        <button class="project-btn">
+                            <a href="https://github.com/mehdisafari77/holy-hour" target="_blank"></a>
+                            <h5>The Holy Hour</h5>
+                            <p>A group project done with a team of 3 developers</p>
+                        </button>
                     </div>
                 </div>
-            </button>
-           
-                  <div class="carousel-item">
-                    <img src="..." alt="...">
+                <div class="carousel-item active">
+                    <img src=" ./assets/images/gif2.gif" alt="First Project Gif">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>...</h5>
-                      <p>...</p>
+                        <button class="project-btn">
+                            <a href="https://github.com/mehdisafari77/Weather-Forecast-Dashboard" target="_blank"></a>
+                            <h5>Weather Forecaster</h5>
+                            <p>A 5 day weather forecaste generator</p>
+                        </button>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>...</h5>
-                      <p>...</p>
-                    </div>
-                  </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -143,14 +138,14 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
- 
+         
     </section>
 
     <!-- Resume Download -->
-    <section class="custom-resume-card">
+    <section class="custom-resume-card custom-padding">
         <div class="card text-center">
             <div class="card-header">
-              Featured
+              Resume/CV Download
             </div>
             <div class="card-body">
               <h5 class="card-title">Resume</h5>
@@ -165,7 +160,7 @@
       
 
     <!--Contact Form-->
-    <section class="mb-4 custom-form">
+    <section class="mb-4 custom-form custom-padding">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Form</h2>
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
 
@@ -232,8 +227,8 @@
       <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2021 Copyright:
+          <a class="text-dark">Created By Mehdi Safari | 2021 All rights reserved.</a>
         </div>
         <!-- Copyright -->
       </footer>

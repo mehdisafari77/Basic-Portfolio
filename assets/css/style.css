@@ -3,40 +3,104 @@
     font-family: 'Playfair Display', serif;
 }
 
+.custom-header-image {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgb(211, 228, 117), rgb(110, 188, 240));
+    /* url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+}
+h1 {
+    color: #fff;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.p-jumbo {
+    color: #fff;
+}
 .custom-jumbotron {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(var(--red), rgb(41, 136, 224), rgb(178, 212, 55));
-    height: 30vh;
     height: 300px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custom-container{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.custom-form {
-   padding: 10px;
+.custom-padding {
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-top: 10px;
 }
-
-.custom-card-greeting {
-    padding: 10px;
-}
-
-.custom-social-card {
-    padding: 10px;
-}
-
-.custom-resume-card {
-    padding: 10px;
-}
-
 .custom-btn {
     border: none;
     border-radius: 10%;
     background-color: rgb(228, 243, 145);
 }
+.card-header  {
+    background-color: rgb(153, 231, 241)!important;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.project-btn {
+    border: none;
+    background-color: rgb(153, 231, 241);
+    opacity: 0.6;
+    border-radius: 30%;
+}
+.card {
+    border: none !important;
+}
+.custom-card {
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: .25rem !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.custom-card-header {
+    background-color: none;
+}
 
-.custome-projects-card {
-    padding: 10px;
+
+.custom-form {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.custom-social-card {
+    
+}
+.custom-resume-card {
+    padding-top: 10px;
+}
+.custom-projects-card {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+} 
+
+.sr-only {
+    color: #111;
 }
