@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
         </div>
       </div>
     
-    <hr size="4" width="100%" color="gray">  
+    <!-- <hr size="4" width="100%" color="gray">   -->
     <!-- </br> -->
     
     <!-- Greeting Message-->
@@ -101,6 +101,11 @@
 
     <!-- My Projects -->
     <section class="custom-projects-card custom-padding">
+        <div class="col-sm-12">
+            <div class="card-header custom-card-header">
+            Projects
+            </div>
+        </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -118,14 +123,14 @@
                         </button>
                     </div>
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item">
                     <img src=" ./assets/images/gif2.gif" alt="First Project Gif">
                     <div class="carousel-caption d-none d-md-block">
-                        <button class="project-btn">
+                        <!-- <button class="project-btn"> -->
                             <a href="https://github.com/mehdisafari77/Weather-Forecast-Dashboard" target="_blank"></a>
                             <h5>Weather Forecaster</h5>
-                            <p>A 5 day weather forecaste generator</p>
-                        </button>
+                            <p>A 5 day weather forecast generator</p>
+                        <!-- </button> -->
                     </div>
                 </div>
             </div>
@@ -226,9 +231,9 @@
 
       <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center p-3">
           © 2021 Copyright:
-          <a class="text-dark">Created By Mehdi Safari | 2021 All rights reserved.</a>
+          <a class="text-light">Created By Mehdi Safari | 2021 All rights reserved.</a>
         </div>
         <!-- Copyright -->
       </footer>

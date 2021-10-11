@@ -9,6 +9,12 @@
     background-image: linear-gradient(rgb(211, 228, 117), rgb(110, 188, 240));
     /* url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
+.custom-nav {
+    padding-left: 10px;
+}
+.custom-footer {
+    background-color: #111;   
+}
 h1 {
     color: #fff;
 }
@@ -31,6 +37,9 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
 }
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 100% !important;
+}
 .custom-container{
     max-width: 720px;
     display: flex;
@@ -51,11 +60,11 @@ h2 {
     background-color: rgb(228, 243, 145);
 }
 .card-header  {
-    background-color: rgb(153, 231, 241)!important;
+    background-color:transparent;
 }
 img {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 .project-btn {
     border: none;
@@ -78,7 +87,12 @@ img {
     align-items: center !important;
 }
 .custom-card-header {
-    background-color: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: none !important;
+    text-align: center !important;
 }
 
 
