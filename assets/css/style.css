@@ -74,6 +74,11 @@ img {
 }
 .card {
     border: none !important;
+    
+}
+.project-card-individual {
+    margin: 5px;
+    height: 370px;
 }
 .custom-card {
     display: flex !important;
@@ -113,6 +118,7 @@ img {
     align-content: center !important;
     justify-content: center !important;
     align-items: center !important;
+    background: linear-gradient(315deg, #e9d696 15%, #c2abeb 84%);
 } 
 
 .sr-only {
